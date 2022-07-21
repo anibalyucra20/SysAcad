@@ -185,9 +185,9 @@ $id_semestre = $res_b_ud['id_semestre'];
                               $udi = $res_busc_ud['unidad_didactica'];
                               ?>
                               <option value="<?php echo $id_udi;
-                              ?>" <?php if ($id_udi == $id_semestre):
-                                echo 'selected="selected"';
-                              endif ?>><?php echo $udi; ?></option>
+                              ?>" <?php if ($id_udi == $id_ud) {
+                                echo ' selected=""';
+                              } ?>><?php echo $udi; ?></option>
                             <?php
                             }
                             ?>
