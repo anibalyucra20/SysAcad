@@ -1,0 +1,4 @@
+-- crear base de datos sysacad22
+-- importar archivo.sql
+ingresar plantilla de datos institucionales
+ingresar plantilla de presente periodo academico
